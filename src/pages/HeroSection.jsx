@@ -19,7 +19,7 @@ const HeroSection = () => {
     <>
       <div className="bg-[url(/images/hero-section/img1.webp)] bg-cover  min-h-[100vh]">
         <div
-          className={`hero-section max-w-[1200px] mx-auto px-10 flex flex-col justify-center min-h-[100vh] font-medium text-white ${position && "fixed  left-[69px]"} `}
+          className={`hero-section max-w-[1200px] mx-auto px-10 flex flex-col justify-center min-h-[100vh] font-medium text-white ${position && "fixed  md:left-[69px]"} `}
         >
           <div className="">
             <h2 className="sm:text-6xl text-5xl py-5">

@@ -10,7 +10,7 @@ const Contact = () => {
   const [tooltipIcon, setTooltipIcon] = useState(false)
   return (
     <>
-      <div className="max-w-[1140px] mx-auto px-5 py-10 ">
+      <div className="max-w-[1200px] mx-auto px-10 py-10 ">
         <img src="/images/hero-section/netguru.svg" alt="" />
         <div className="grid lg:grid-cols-[1fr_1fr_2fr] grid-cols-2 gap-10 py-5">
           <div>

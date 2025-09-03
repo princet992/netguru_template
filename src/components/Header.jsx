@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './NavBar'
-import HeroSection from './HeroSection'
+import HeroSection from '../pages/HeroSection'
 
 const Header = () => {
   return (

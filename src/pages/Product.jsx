@@ -1,21 +1,11 @@
-import {useState} from "react";
 
 const Product = () => {
 
-  // const [product, setProduct] = useState(false)
 
-  // const scrollProduct = ()=>{
-  //   if(window. >=10){
-  //     setProduct(true)
-  //   }else{
-  //     setProduct(false)
-  //   }
-  // }
-  // window.addEventListener('scroll',scrollProduct)
   return (
     <>
-      {/* <main className="bg-slate-100 relative z-10 "> */}
-        <div className="max-w-[1140px] mx-auto py-10 px-5">
+      <main className="bg-slate-100  ">
+        <div className="max-w-[1200px] mx-auto py-10 px-10">
           <div className="grid lg:grid-cols-2 gap-10 py-10">
             <h2 className="text-2xl font-medium">
               Leverage our full digital <strong className="bg-gradient-to-l from-green-300 to-green-50 rounded-s-[50%] rounded-e-2xl pe-2">product expertise</strong>
@@ -76,7 +66,7 @@ const Product = () => {
             </div>
           </div>
           </div>
-      {/* </main> */}
+      </main>
     </>
   );
 };

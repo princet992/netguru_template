@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <>
       <div className="bg-slate-100 ">
-        <div className="max-w-[1140px] mx-auto px-5 py-10">
+        <div className="max-w-[1200px] mx-auto px-10 py-10">
           <div className="grid lg:grid-cols-2 gap-10 py-10 items-center">
             <h2 className="text-2xl font-medium lg:py-10">
               Benefit from our cross-industry
@@ -11,9 +11,8 @@ const Experience = () => {
               </strong>
             </h2>
             <p className="lg:w-96  font-medium  ">
-              With a wide range of services, and experience in multiple
-              industries, such as finance, retail, proptech, or healthcare, we
-              understand your challenges.
+              With a wide range of services, and experience in multiple industries, such as finance, retail, proptech,
+              or healthcare, we understand your challenges.
             </p>
           </div>
           <div className="grid text-center lg:grid-cols-6 gap-20 md:grid-cols-5 sm:grid-cols-4 grid-cols-3 py-10">

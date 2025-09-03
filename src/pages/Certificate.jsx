@@ -1,7 +1,7 @@
 const Certificate = () => {
   return (
     <>
-      <div className="max-w-[1140px] mx-auto px-5 pb-5 ">
+      <div className="max-w-[1200px] mx-auto px-10 pb-5 ">
         <div className="grid lg:grid-cols-[1fr_3fr] gap-10   py-5">
           <div className=" ">
             <h3 className="text-sm font-medium">Certificates :</h3>
